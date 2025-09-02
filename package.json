@@ -44,10 +44,10 @@
     "access": "public"
   },
   "repository": {
-    "url": "git+https://github.com/phothinmg/dependensia.git",
+    "url": "git+https://github.com/phothinmg/risolt.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/phothinmg/dependensia/issues"
+    "url": "https://github.com/phothinmg/risolt/issues"
   }
 }
