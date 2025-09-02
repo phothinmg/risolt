@@ -1,0 +1,46 @@
+{
+  "name": "risolt",
+  "version": "0.0.1",
+  "description": "Run a list of functions in series, concurrently, or allSettled.",
+  "main": "lib/index.cjs",
+  "module": "lib/index.js",
+  "types": "lib/index.d.cts",
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./lib/index.d.cts",
+        "default": "./lib/index.cjs"
+      },
+      "import": {
+        "types": "./lib/index.d.ts",
+        "default": "./lib/index.js"
+      }
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "lint": "biome check src --write",
+    "format": "biome format --write"
+  },
+  "keywords": [
+    "Promise",
+    "resolved"
+  ],
+  "author": "Pho Thin Mg <phothinmg@disroot.org>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.2",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "readme.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  }
+}
