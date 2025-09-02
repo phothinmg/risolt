@@ -6,9 +6,9 @@
 
 ## Features
 
-- Run functions in series (one after another)
-- Run functions concurrently (all at once)
-- Run functions with allSettled (wait for all to finish, regardless of success/failure)
+- **Run functions in series (one after another)**
+- **Run functions concurrently (all at once)**
+- **Run functions with allSettled (wait for all to finish, regardless of success/failure)**
 
 ## Installation
 
