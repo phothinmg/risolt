@@ -1,6 +1,6 @@
 {
   "name": "risolt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run a list of functions in series, concurrently, or allSettled.",
   "main": "lib/index.cjs",
   "module": "lib/index.js",
